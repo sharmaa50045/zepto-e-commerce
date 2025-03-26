@@ -1,0 +1,58 @@
+.parent{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+
+}
+
+@media (min-width: 600px) {
+    .child:hover{
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        transform: scale(0.9);
+        transition: transform 0.5s;
+    }
+}
+
+.child{
+    text-align: center;
+    border-radius: 10px;    
+    border: 2px solid gray;
+    padding: 5px;
+    margin-top: 10px;
+
+}
+
+.pop{
+    color: yellow;
+}
+.lock{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;   
+}.nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;  
+}  .sale-button {
+    background-color: #ff4d4d;
+    color: white;  
+    border-radius: 6px;
+    border: none;
+   
+}.sale-button:hover {
+    background-color: #cc0000;
+    transform: scale(1.1);
+}  .sale {
+    background-color:rgb(6, 138, 6);
+    color: white;  
+    border-radius: 6px;
+    border: none;
+   
+}.sale:hover {
+    background-color: rgb(9, 89, 9);
+    transform: scale(1.1);
+}
